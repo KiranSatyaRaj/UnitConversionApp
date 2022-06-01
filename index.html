@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+       <div id="container">
+            <p id="heading">Metric/Imperial unit conversion</p>
+            <input id="num-el" type="number" placeholder="Enter the value" autofocus>
+            <button id="val" onclick="button()">TRANSMOGRIFY</button>
+       </div>
+       
+       <div id="container2">
+           <div>
+                <p class="subt">Length (Meter/feet)</p>
+                <p class="supt"><span class="input_val"></span> meters = <span id="feet"></span> feet | 
+                    <span class="input_val"></span> feet = <span id="meter_"></span> meters</p>
+            </div>
+
+            <div>
+                <p class="subt">Volume (Liters/Gallons)</p>
+                <p class="supt"><span class="input_val"></span> liters = <span id="gallon"></span> gallons | 
+                    <span class="input_val"></span> gallons = <span id="liter_"></span> liters</p>
+            </div>
+
+            <div>
+                <p class="subt">Mass (Kilograms/Pounds)</p>
+                <p class="supt"><span class="input_val"></span> kilos = <span id="pound"></span> pounds | 
+                    <span class="input_val"></span> pounds = <span id="kilo_"></span> kilos</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
